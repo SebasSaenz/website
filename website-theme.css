@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+/* base variables */
+
+/* Edit the CSS properties in this file to create a custom
+   Distill theme. Only edit values in the right column
+   for each row; values shown are the CSS defaults.
+   To return any property to the default,
+   you may set its value to: unset
+   All rows must end with a semi-colon.                      */
+
+/* Optional: embed custom fonts here with `@import`          */
+/* This must remain at the top of this file.                 */
+
+
+
+html {
+  /*-- Main font sizes --*/
+  --title-size:      45px;
+  --body-size:       18px;
+  --code-size:       14px;
+  --aside-size:      12px;
+  --fig-cap-size:    13px;
+  /*-- Main font colors --*/
+  --title-color:    #57CC99;
+  --header-color:   #57CC99;
+  --body-color:     #000000;
+  --aside-color:    #57CC99;
+  --fig-cap-color:  #57CC99;
+  /*-- Specify custom fonts ~~~ must be imported above   --*/
+  --heading-font:    Amaranth;
+  --mono-font:       monospace;
+  --body-font:       "Open Sans";
+  --navbar-font:     Amaranth;  /* websites + blogs only */
+}
+
+/*-- ARTICLE METADATA --*/
+d-byline {
+  --heading-size:    0.6rem;
+  --heading-color:   rgba(0, 0, 0, 0.5);
+  --body-size:       0.8rem;
+  --body-color:      rgba(0, 0, 0, 0.8);
+}
+
+
+
+/*-- ARTICLE TABLE OF CONTENTS --*/
+.d-contents {
+  --heading-size:    18px;
+  --contents-size:   13px;
+}
+
+/*-- ARTICLE APPENDIX --*/
+d-appendix {
+  --heading-size:    15px;
+  --heading-color:   #0F2E3D;
+  --text-size:       0.8em;
+  --text-color:      #0F2E3D;
+}
+
+/*-- WEBSITE HEADER + FOOTER --*/
+/* These properties only apply to Distill sites and blogs  */
+
+.distill-site-header {
+  --title-size:       22px;
+  --text-color:       rgba(255, 255, 255, 0.8);
+  --text-size:        18px;
+  --hover-color:      white;
+  --bkgd-color:       #57CC99;
+}
+
+.distill-site-footer {
+  --text-color:       rgba(255, 255, 255, 0.8);
+  --text-size:        15px;
+  --hover-color:      white;
+  --bkgd-color:       #0F2E3D;
+}
+
+/*-- Additional custom styles --*/
+/* Add any additional CSS rules below                      */
+
+h1 {
+  color: #57CC99;
+}
+
+h2 {
+  color: #57CC99;
+}
+
+h3 {
+  color: #57CC99;
+}
+
+d-article h1 {
+  color: #57CC99 !important;
+  font-size: 38px;
+}
+
+d-article h2 {
+  color: #57CC99 !important;
+  font-size: 34px;
+}
+
+d-article h3 {
+  color: #57CC99 !important;
+  font-size: 30px;
+}
+
+/*change url color */
+a {
+  color: #57CC99;
+}
+
+a:hover {
+  color: #007bff;
+}
+
+d-article a {
+  color: #57CC99;
+}
+
+/*change buttons on homepage*/
+.btn-outline-dark {
+    background-color: transparent; 
+    color: #57CC99;
+    border: 1px solid;
+    border-color: #57CC99;
+}
+
+.btn-outline-dark:hover {
+    background-color: #57CC99;
+    border-color: #57CC99;
+    color: white;
+}

@@ -3,10 +3,9 @@ title: "Johan Sáenz"
 description: |
   Johan Sáenz
 output_dir: "docs"
+theme: website-theme.css
 navbar:
   right:
-    - text: "Home"
-      href: index.html
     - text: "Research"
       href: research.html
     - text: "Publications"

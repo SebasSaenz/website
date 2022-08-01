@@ -1,4 +1,18 @@
 ---
 title: "Research"
-site: distill::distill_website
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
+    toc_float: true
 ---
+
+## Current reseach
+
+<img src="images/proposal_phages.png" alt="phages workflow" />
+
+## Animal microbiome
+
+## Atacama Desert
+
+## Antimicrobial resistance
