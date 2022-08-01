@@ -17,3 +17,14 @@ site: distill::distill_website
  
 ## Welcome!!
 
+
+Hi my name is **Johan Sebastián Sáenz** and I am a microbial ecologist currently
+working in the [Department of Functional Microbiology of Livestock](https://livestock-functional-microbiology.uni-hohenheim.de/en) 
+at the Hohenheim University.
+
+I am interested in the main drivers of microbial community structure and function,
+with special focus on the phage´s role.
+
+
+
+This is my personal site please look around and contact me!!

@@ -2,38 +2,37 @@
   "articles": [
     {
       "path": "about.html",
-      "title": "About this site",
-      "description": "Some additional details about the website",
+      "title": "About me",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2022-08-01T10:14:58+02:00"
+      "last_modified": "2022-08-01T10:32:21+02:00"
     },
     {
       "path": "index.html",
       "title": "Johan S. Sáenz",
       "author": [],
-      "contents": "\n\n          \n          \n          Johan Sáenz\n          \n          \n          Home\n          Research\n          Publications\n          About me\n          ☰\n          \n          \n      \n        \n          \n            \n              \n            \n              Johan S. Sáenz\n            \n            \n              \n                \n                    \n                      \n                        LinkedIn\n                      \n                    \n                  \n                                    \n                    \n                      \n                        Twitter\n                      \n                    \n                  \n                                    \n                    \n                      \n                        GitHub\n                      \n                    \n                  \n                                    \n                    \n                      \n                        Email\n                      \n                    \n                  \n                                  \n            \n          \n        \n        \n        \n          \n            \n            Welcome!!\n            \n          \n        \n      \n    \n\n    \n      \n        \n          \n            \n              \n            \n              Johan S. Sáenz\n            \n            \n              \n                \n                                    \n                    \n                      LinkedIn\n                    \n                  \n                                    \n                    \n                      Twitter\n                    \n                  \n                                    \n                    \n                      GitHub\n                    \n                  \n                                    \n                    \n                      Email\n                    \n                  \n                                  \n              \n            \n            \n              \n              Welcome!!\n              \n            \n        \n      \n    \n\n    \n    \n    ",
-      "last_modified": "2022-08-01T10:14:58+02:00"
+      "contents": "\n\n          \n          \n          Johan Sáenz\n          \n          \n          Home\n          Research\n          Publications\n          About me\n          ☰\n          \n          \n      \n        \n          \n            \n              \n            \n              Johan S. Sáenz\n            \n            \n              \n                \n                    \n                      \n                        LinkedIn\n                      \n                    \n                  \n                                    \n                    \n                      \n                        Twitter\n                      \n                    \n                  \n                                    \n                    \n                      \n                        GitHub\n                      \n                    \n                  \n                                    \n                    \n                      \n                        Email\n                      \n                    \n                  \n                                  \n            \n          \n        \n        \n        \n          \n            \n            Welcome!!\n            Hi my name is Johan Sebastián Sáenz and\n            I am a microbial ecologist currently working in the Department\n            of Functional Microbiology of Livestock at the Hohenheim\n            University.\n            I am interested in the main drivers of microbial\n            community structure and function, with special focus on the\n            phage´s role.\n            This is my personal site please look around and contact\n            me!!\n            \n          \n        \n      \n    \n\n    \n      \n        \n          \n            \n              \n            \n              Johan S. Sáenz\n            \n            \n              \n                \n                                    \n                    \n                      LinkedIn\n                    \n                  \n                                    \n                    \n                      Twitter\n                    \n                  \n                                    \n                    \n                      GitHub\n                    \n                  \n                                    \n                    \n                      Email\n                    \n                  \n                                  \n              \n            \n            \n              \n              Welcome!!\n              Hi my name is Johan Sebastián Sáenz\n              and I am a microbial ecologist currently working in the Department\n              of Functional Microbiology of Livestock at the\n              Hohenheim University.\n              I am interested in the main drivers of microbial\n              community structure and function, with special focus on\n              the phage´s role.\n              This is my personal site please look around and contact\n              me!!\n              \n            \n        \n      \n    \n\n    \n    \n    ",
+      "last_modified": "2022-08-01T10:32:21+02:00"
     },
     {
       "path": "publications.html",
       "title": "Publications",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2022-08-01T10:14:58+02:00"
+      "last_modified": "2022-08-01T10:32:22+02:00"
     },
     {
       "path": "README.html",
       "author": [],
       "contents": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJohan Sebastián Sáenz\nThis is my personal website made with:\nR\nDistill\n\n\n\n\n\n\n\n",
-      "last_modified": "2022-08-01T10:14:59+02:00"
+      "last_modified": "2022-08-01T10:32:22+02:00"
     },
     {
       "path": "research.html",
       "title": "Research",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2022-08-01T10:14:59+02:00"
+      "last_modified": "2022-08-01T10:32:22+02:00"
     }
   ],
   "collections": []
