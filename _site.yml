@@ -1,7 +1,7 @@
 name: "."
 title: "Johan S. Sáenz"
 description: |
-  Johan Sáenz
+  Johan S. Sáenz
 output_dir: "docs"
 theme: website-theme.css
 navbar:
