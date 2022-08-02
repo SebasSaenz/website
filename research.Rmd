@@ -7,7 +7,7 @@ output:
     toc_float: true
 ---
 
-## Current reseach
+## Current research
 
 <img src="images/proposal_phages.png" alt="phages workflow" />
 

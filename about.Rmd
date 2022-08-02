@@ -3,5 +3,5 @@ title: "About me"
 site: distill::distill_article
 ---
 
-I was born and rised in **Bogotá-Colombian** which is a city with ~10 million of
+I was born and rised in **Bogotá-Colombian**, which is a city with ~10 million of
 inhabitants placed at 2640 masl. I studied Microbiology in the <a href="https://www.javeriana.edu.co/inicio" target="_blank">Pontificia Universidad Javeriana</a>
