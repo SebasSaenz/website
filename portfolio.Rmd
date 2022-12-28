@@ -12,4 +12,4 @@ data from the [#TidyTuesday challenge](https://github.com/rfordatascience/tidytu
 
 ## 2022
 
-![Total scored goals during the last 7 World Cups](https://github.com/SebasSaenz/TidyTuesday/blob/main/plots/2022/world_cup.png)
+![Total scored goals during the last 7 World Cups](images/world_cup.png)
