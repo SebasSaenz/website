@@ -785,6 +785,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1857,15 +1858,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
-          var fn = $(this).children()[0]
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
           $(this).html(fn.shadowRoot.querySelector("sup"))
           $(this).id = fn.id
           fn.remove()
         }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -2432,7 +2439,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2464,6 +2471,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </div>
 <div class="nav-right">
 <a href="research.html">Research</a>
+<a href="portfolio.html">Portfolio</a>
 <a href="publications.html">Publications</a>
 <a href="about.html">About me</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
@@ -2483,40 +2491,17 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
-<p>Here you can find some selected publications but if you are
-interested in the full list, you can browse around in
-<a href="https://scholar.google.com/citations?user=T1Nf7hQAAAAJ&hl=en" target="_blank">Google
-Scholar</a></p>
+<p>Here you can find some selected publications but if you are interested in the full
+list, you can browse around in <a href="https://scholar.google.com/citations?user=T1Nf7hQAAAAJ&hl=en" target="_blank">Google Scholar</a></p>
 <p><img src="images/header_publications.png" alt="header" /></p>
 <ul>
-<li><p>Hwang, Y., Schulze-Makuch, D., Arens, F. L., <strong>Saenz, J.
-S.</strong>, Adam, P. S., Sager, C., … &amp; Probst, A. J. (2021).
-<strong>Leave no stone unturned: individually adapted xerotolerant
-Thaumarchaeota sheltered below the boulders of the Atacama Desert
-hyperarid core</strong>. Microbiome, 9(1), 1-17.</p></li>
-<li><p>Tröscher-Mußotter, J., <strong>Saenz, J. S.</strong>, Grindler,
-S., Meyer, J., Kononov, S. U., Mezger, B., … &amp; Seifert, J. (2021).
-<strong>Microbiome Clusters Disclose Physiologic Variances in Dairy Cows
-Challenged by Calving and Lipopolysaccharides</strong>. Msystems, 6(5),
-e00856-21.</p></li>
-<li><p><strong>Sáenz, J. S.</strong>, Marques, T. V., Barone, R. S. C.,
-Cyrino, J. E. P., Kublik, S., Nesme, J., … &amp; Vestergaard, G. (2019).
-<strong>Oral administration of antibiotics increased the potential
-mobility of bacterial resistance genes in the gut of the fish Piaractus
-mesopotamicus</strong>. Microbiome, 7(1), 1-14.</p></li>
-<li><p><strong>Sáenz, J. S.</strong>1, Roldan, F., Junca, H., &amp;
-Arbeli, Z. (2019). <strong>Effect of the extraction and purification of
-soil DNA and pooling of PCR amplification products on the description of
-bacterial and archaeal communities</strong>. Journal of Applied
-Microbiology, 126(5), 1454-1467.</p></li>
-<li><p>Schulze-Makuch, D., Wagner, D., Kounaves, S. P., Mangelsdorf, K.,
-Devine, K. G., de Vera, J. P., <strong>Saenz, J. S.</strong>, … &amp;
-Zamorano, P. (2018). <strong>Transitory microbial habitat in the
-hyperarid Atacama Desert</strong>. Proceedings of the National Academy
-of Sciences, 115(11), 2670-2675.</p></li>
+<li><p>Hwang, Y., Schulze-Makuch, D., Arens, F. L., <strong>Saenz, J. S.</strong>, Adam, P. S., Sager, C., … &amp; Probst, A. J. (2021). <strong>Leave no stone unturned: individually adapted xerotolerant Thaumarchaeota sheltered below the boulders of the Atacama Desert hyperarid core</strong>. Microbiome, 9(1), 1-17.</p></li>
+<li><p>Tröscher-Mußotter, J., <strong>Saenz, J. S.</strong>, Grindler, S., Meyer, J., Kononov, S. U., Mezger, B., … &amp; Seifert, J. (2021). <strong>Microbiome Clusters Disclose Physiologic Variances in Dairy Cows Challenged by Calving and Lipopolysaccharides</strong>. Msystems, 6(5), e00856-21.</p></li>
+<li><p><strong>Sáenz, J. S.</strong>, Marques, T. V., Barone, R. S. C., Cyrino, J. E. P., Kublik, S., Nesme, J., … &amp; Vestergaard, G. (2019). <strong>Oral administration of antibiotics increased the potential mobility of bacterial resistance genes in the gut of the fish Piaractus mesopotamicus</strong>. Microbiome, 7(1), 1-14.</p></li>
+<li><p><strong>Sáenz, J. S.</strong>1, Roldan, F., Junca, H., &amp; Arbeli, Z. (2019). <strong>Effect of the extraction and purification of soil DNA and pooling of PCR amplification products on the description of bacterial and archaeal communities</strong>. Journal of Applied Microbiology, 126(5), 1454-1467.</p></li>
+<li><p>Schulze-Makuch, D., Wagner, D., Kounaves, S. P., Mangelsdorf, K., Devine, K. G., de Vera, J. P., <strong>Saenz, J. S.</strong>, … &amp; Zamorano, P. (2018). <strong>Transitory microbial habitat in the hyperarid Atacama Desert</strong>. Proceedings of the National Academy of Sciences, 115(11), 2670-2675.</p></li>
 </ul>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
