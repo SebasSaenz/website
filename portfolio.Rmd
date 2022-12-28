@@ -1,11 +1,15 @@
 ---
 title: "Portfolio"
-site: distill::distill_article
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
+    toc_float: true
 ---
 
 Here you can find some of the data visualization created by me, mainly using the
 data from the [#TidyTuesday challenge](https://github.com/rfordatascience/tidytuesday)
 
-# 2022
+## 2022
 
 ![Total scored goals during the last 7 World Cups](https://github.com/SebasSaenz/TidyTuesday/blob/main/plots/2022/world_cup.png)
