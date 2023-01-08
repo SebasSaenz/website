@@ -20,10 +20,9 @@ site: distill::distill_website
 
 
 Hi my name is **Johan Sebastián Sáenz** and I am a microbial ecologist currently
-working in the <a href="https://livestock-functional-microbiology.uni-hohenheim.de/en" target="_blank">Department of Functional Microbiology of Livestock</a> at the Hohenheim University.
+working in the <a href="https://livestock-functional-microbiology.uni-hohenheim.de/en" target="_blank">Department of Functional Microbiology of Livestock</a> at the Hohenheim University. I am interested in the main drivers of microbial community structure and function, with special focus on the phage's role. 
 
-I am interested in the main drivers of microbial community structure
-and function, with special focus on the phage´s role.
+I am also fascinated by data analysis and visualization. I am trying to promote the use of R in my research group and the university. If you are interested please check out some of my microbiome analysis <a href="https://github.com/SebasSaenz/coding_club/blob/main/data_wrangling.md" target="_blank">tutorials</a>  or contributions to data <a href="https://github.com/SebasSaenz/TidyTuesday" target="_blank">analysis/visualization challenges</a>.
 </div>
 
 

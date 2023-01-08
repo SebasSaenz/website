@@ -10,6 +10,14 @@ output:
 Here you can find some of the data visualization created by me, mainly using the
 data from the [#TidyTuesday challenge](https://github.com/rfordatascience/tidytuesday)
 
-## 2022
+#TidyTuesday
+
+##2022
 
 ![Total scored goals during the last 7 World Cups](images/world_cup.png)
+
+![Star Trek books that were not originally books](images/strek_novelization.png)
+
+##2022
+
+#Tutorials
