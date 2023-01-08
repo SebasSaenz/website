@@ -10,14 +10,23 @@ output:
 Here you can find some of the data visualization created by me, mainly using the
 data from the [#TidyTuesday challenge](https://github.com/rfordatascience/tidytuesday)
 
-#TidyTuesday
+# Personal projects
 
-##2022
+I want to analyse how active I am. I will collect daily data and update the plot at
+the beginning of every month.
+
+This plot is the summary of my 2022
+
+![A year of data](images/workouts.png)
+
+# TidyTuesday
+
+## 2022
 
 ![Total scored goals during the last 7 World Cups](images/world_cup.png)
 
 ![Star Trek books that were not originally books](images/strek_novelization.png)
 
-##2022
+## 2023
 
-#Tutorials
+# Tutorials
