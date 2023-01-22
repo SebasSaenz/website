@@ -25,6 +25,6 @@ working in the <a href="https://livestock-functional-microbiology.uni-hohenheim.
 I am also fascinated by data analysis and visualization. I am trying to promote the use of R in my research group and the university. If you are interested please check out some of my microbiome analysis <a href="https://github.com/SebasSaenz/coding_club/blob/main/data_wrangling.md" target="_blank">tutorials</a>  or contributions to data <a href="https://github.com/SebasSaenz/TidyTuesday" target="_blank">analysis/visualization challenges</a>.
 </div>
 
-
-
 This is my personal site, please look around and contact me!!
+
+<img src="images/Artwork.png" alt="mobile genetic elements and bacteria" width="400" height="400"/>
