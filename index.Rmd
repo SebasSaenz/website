@@ -27,4 +27,8 @@ I am also fascinated by data analysis and visualization. I am trying to promote 
 
 This is my personal site, please look around and contact me!!
 
-<img src="images/Artwork.png" alt="mobile genetic elements and bacteria" width="400" height="400"/>
+<div style="text-align: center">
+
+<img src="images/Artwork.png" alt="mobile genetic elements and bacteria" width="300" height="300"/>
+
+</div>
