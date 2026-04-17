@@ -3,7 +3,7 @@ title: "Publications"
 site: distill::distill_article
 ---
 
-Here you can find some relevant publications but if you are interested in checking further, you can browse around in <a href="https://scholar.google.com/citations?user=T1Nf7hQAAAAJ&hl=en" target="_blank">Google Scholar</a>
+Here you can find some relevant publications but if you are interested in checking further, you can browse around in <a href="https://scholar.google.com/citations?user=T1Nf7hQAAAAJ&hl=en" target="_blank">Gooooooooogle Scholar</a>
 
 <img src="images/header_publications.png" alt="header" width="600"/>
 
