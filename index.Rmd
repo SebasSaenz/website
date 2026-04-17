@@ -20,7 +20,8 @@ site: distill::distill_website
 
 Hi my name is **Johan Sebastián Sáenz** and I am a microbial ecologist currently working in the <a href="https://livestock-functional-microbiology.uni-hohenheim.de/en" target="_blank">Department of Functional Microbiology of Livestock</a> at the Hohenheim University. I am interested in the main drivers of microbial community structure and function, with special focus on the phage's role.
 
-I am also fascinated by data analysis and visualization. If you are interested please check out some of my microbiome analysis <a href="https://github.com/SebasSaenz/coding_club/blob/main/data_wrangling.md" target="_blank">tutorials</a> or contributions to data <a href="https://github.com/SebasSaenz/TidyTuesday" target="_blank">analysis/visualization challenges</a>.
+I am also fascinated by data analysis and visualization. If you are interested please check out some of my contributions to data visualization challenges like <a href="https://github.com/SebasSaenz/TidyTuesday" target="_blank">Tidytuesday</a>, <a href="https://github.com/SebasSaenz/30DayChartChallenge
+" target="_blank">30DayChartChallenge</a> and <a href="https://github.com/SebasSaenz/Millonarios" target="_blank">football statistics</a>.
 :::
 
 This is my personal site, please look around and contact me!!
@@ -28,3 +29,5 @@ This is my personal site, please look around and contact me!!
 ::: {style="text-align: center"}
 <img src="images/Artwork.png" alt="mobile genetic elements and bacteria" width="300" height="300"/>
 :::
+
+Developed in R & Rstudio using Distill, Postcards and CSS. Last updated: `r Sys.Date()`
