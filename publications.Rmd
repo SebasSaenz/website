@@ -3,18 +3,24 @@ title: "Publications"
 site: distill::distill_article
 ---
 
-Here you can find some selected publications but if you are interested in the full
-list, you can browse around in <a href="https://scholar.google.com/citations?user=T1Nf7hQAAAAJ&hl=en" target="_blank">Google Scholar</a>
+Here you can find some relevant publications but if you are interested in checking further, you can browse around in <a href="https://scholar.google.com/citations?user=T1Nf7hQAAAAJ&hl=en" target="_blank">Google Scholar</a>
 
-<img src="images/header_publications.png" alt="header" />
+<img src="images/header_publications.png" alt="header" width="600"/>
 
+-   **Sáenz, J. S.**, Yergaliyev, T., Rios-Galicia, B., Seifert, J., & Camarinha-Silva, A. (2026). <a href="https://journals.asm.org/doi/full/10.1128/msystems.00191-26" target="_blank">The chicken gut virome: spatial structuring and extensive diversity of 19,778 viral populations</a>. Msystems, e00191-26.
 
-* Hwang, Y., Schulze-Makuch, D., Arens, F. L., **Saenz, J. S.**, Adam, P. S., Sager, C., ... & Probst, A. J. (2021). **Leave no stone unturned: individually adapted xerotolerant Thaumarchaeota sheltered below the boulders of the Atacama Desert hyperarid core**. Microbiome, 9(1), 1-17.
+-   **Sáenz, J. S.**, Rios-Galicia, B., & Seifert, J. (2025). <a href="https://journals.asm.org/doi/full/10.1128/msystems.01521-24" target="_blank">Antiviral defense systems in the rumen microbiome</a>. mSystems, 10 (2), e01521-24.
 
-* Tröscher-Mußotter, J., **Saenz, J. S.**, Grindler, S., Meyer, J., Kononov, S. U., Mezger, B., ... & Seifert, J. (2021). **Microbiome Clusters Disclose Physiologic Variances in Dairy Cows Challenged by Calving and Lipopolysaccharides**. Msystems, 6(5), e00856-21.
+- Eichinger, J., Seifert, J., **Sáenz, J. S.**, Amin, N., Lorenz, S., Eckel, F., ... & Brugger, D. (2025). <a href="https://www.sciencedirect.com/science/article/pii/S0304389425034016" target="_blank">The interaction of microplastics with the ruminal ecosystem in vitro</a>. Journal of Hazardous Materials, 140481.
 
-* **Sáenz, J. S.**, Marques, T. V., Barone, R. S. C., Cyrino, J. E. P., Kublik, S., Nesme, J., ... & Vestergaard, G. (2019). **Oral administration of antibiotics increased the potential mobility of bacterial resistance genes in the gut of the fish Piaractus mesopotamicus**. Microbiome, 7(1), 1-14.
+-   Rios-Galicia, B., **Sáenz, J. S.**, Yergaliyev, T., Roth, C., Camarinha-Silva, A., & Seifert, J. (2024). <a href="https://www.microbiologyresearch.org/content/journal/ijsem/10.1099/ijsem.0.006210" target="_blank">Novel taxonomic and functional diversity of eight bacteria from the upper digestive tract of chicken</a>. International Journal of Systematic and Evolutionary Microbiology, 74(1), 006210.
 
-* **Sáenz, J. S.**1, Roldan, F., Junca, H., & Arbeli, Z. (2019). **Effect of the extraction and purification of soil DNA and pooling of PCR amplification products on the description of bacterial and archaeal communities**. Journal of Applied Microbiology, 126(5), 1454-1467.
+-   **Sáenz, J. S.**, Rios-Galicia, B., Rehkugler, B., & Seifert, J. (2023). <a href="https://www.mdpi.com/1999-4915/15/4/951" target="_blank">Dynamic development of viral and bacterial diversity during grass silage preservation</a>. Viruses, 15(4), 951.
 
-* Schulze-Makuch, D., Wagner, D., Kounaves, S. P., Mangelsdorf, K., Devine, K. G., de Vera, J. P., **Saenz, J. S.**, ... & Zamorano, P. (2018). **Transitory microbial habitat in the hyperarid Atacama Desert**. Proceedings of the National Academy of Sciences, 115(11), 2670-2675.
+-   Tröscher-Mußotter, J., **Saenz, J. S.**, Grindler, S., Meyer, J., Kononov, S. U., Mezger, B., ... & Seifert, J. (2021). <a href="https://journals.asm.org/doi/full/10.1128/msystems.00856-21">Microbiome Clusters Disclose Physiologic Variances in Dairy Cows Challenged by Calving and Lipopolysaccharides</a>. Msystems, 6(5), e00856-21.
+
+-   **Sáenz, J. S.**, Marques, T. V., Barone, R. S. C., Cyrino, J. E. P., Kublik, S., Nesme, J., ... & Vestergaard, G. (2019). <a href="https://link.springer.com/article/10.1186/s40168-019-0632-7">Oral administration of antibiotics increased the potential mobility of bacterial resistance genes in the gut of the fish *Piaractus mesopotamicus*</a>. Microbiome, 7(1), 1-14.
+
+-   **Sáenz, J. S.**1, Roldan, F., Junca, H., & Arbeli, Z. (2019). <a href="https://academic.oup.com/jambio/article-abstract/126/5/1454/6715201">Effect of the extraction and purification of soil DNA and pooling of PCR amplification products on the description of bacterial and archaeal communities</a>. Journal of Applied Microbiology, 126(5), 1454-1467.
+
+-   Schulze-Makuch, D., Wagner, D., Kounaves, S. P., Mangelsdorf, K., Devine, K. G., de Vera, J. P., **Saenz, J. S.**, ... & Zamorano, P. (2018). <a href="https://www.pnas.org/doi/abs/10.1073/pnas.1714341115">Transitory microbial habitat in the hyperarid Atacama Desert</a>. Proceedings of the National Academy of Sciences, 115(11), 2670-2675.
