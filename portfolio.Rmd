@@ -21,31 +21,36 @@ This collection of genomes can be download from [Zenodo](https://zenodo.org/reco
 
 ## The Vault
 
-Everyday bioinformatic tools are release and it is quite difficult to keep track of them.
-I have created a searchable repository of bioinformatic books and tools group in 
-five categories: books, metagenomics, genomics, amplicons, metaproteomics and R.
-This has been of great use for stablishing my workflows and I hope other people can use it.
+New bioinformatics tools are released on a daily basis, making it difficult to keep track of relevant resources. To address this, I developed a searchable repository that curates bioinformatic books and tools across key areas, including metagenomics, genomics, amplicon analysis, metaproteomics, and R. This resource has been valuable in structuring and refining my own data analysis workflows, and it is intended to support other bioinformatic enthusiast.
 
 The repository is available here: [The Vault](https://sebassaenz.github.io/thevault/)
 
-<img src="https://github.com/SebasSaenz/thevault/blob/gh-pages/image/vault.webp" alt="phages workflow" style="width:48%;"/>
+<img src="images/thevault.png" alt="the vault example" style="width:50%;"/>
+
+## Viral Collections in GenBank
+
+Phages are the most abundant and diverse biological entities on the planet. However, our knowledge of them is quite limited. There are currently thousands of phage genomes in the NCBI and this number will continue to grow as researchers produce sequencing data. This website provides an overview of the number of phages and jumbo phages, size, molecule type and host of bacteriophage genomes stored in the NCBI.
+
+GenBank viral online resource: [Website](https://sebassaenz.github.io/genbank_viral/)
+
+<img src="images/logo.png" alt="the vault example" style="width:50%;"/>
+
+## MicroTutorials
+
+I initially found learning R challenging. As I developed my skills, I realised that consistent practice is essential for building confidence. Because of that, I created a short tutorials that use sequencing and metaproteomics data to introduce key concepts in R and data visualisation. These tutorials are designed to provide practical, hands-on experience and to support others in developing their own analytical skills.
+
+Introduction to R using metaproteomics: [Tutorial](https://sebassaenz.github.io/MicroTutorials/)
+
+Data wrangling with amplicon sequencing data [Tutorial](https://github.com/SebasSaenz/coding_club/blob/main/data_wrangling.md)
 
 # Personal projects
 
-I want to analyse how active I am. I will collect daily data and update the plot at the beginning of every month.
+## A year of data
 
-This plot is the summary of my 2022
+I wear an Apple Watch almost every day and use the collected data to summarise my activity patterns over time. To explore these data, I developed a workflow in an R Markdown file that generates visualisations of my activity levels across the year. This approach provides a simple way to track trends and reflect on personal activity patterns, and the workflow can be adapted to create similar summaries using your own data.
 
-![A year of data](images/workouts.png)
+Do you want to explore your data? Have a look at my: [Workout repository](https://github.com/SebasSaenz/workouts)
 
-# TidyTuesday
+This plot is my 2025 summary
 
-## 2022
-
-![Total scored goals during the last 7 World Cups](images/world_cup.png)
-
-![Star Trek books that were not originally books](images/strek_novelization.png)
-
-## 2023
-
-# Tutorials
+<img src="images/workouts_2025.png" alt="2025 summary" style="width:80%;"/>
