@@ -7,13 +7,32 @@ output:
     toc_float: true
 ---
 
-Here you can find some of the data visualization created by me, mainly using the
-data from the [#TidyTuesday challenge](https://github.com/rfordatascience/tidytuesday)
+# Academic projects
+
+## Collection of viral genomes from the chicken gut
+
+At the University of Hohenheim, we have recently reconstructed approximately 20,000 viral genomes from chicken gut metagenomic samples. This collection includes several large viral genomes and reveals a remarkable level of novelty, with more than 97% of the sequences likely representing previously uncharacterised viral diversity, potentially forming new viral families. This dataset provides a valuable resource for expanding global viral genome collections and offers opportunities for comparative analyses across different environments, enabling deeper insights into viral diversity, evolution, and ecological distribution.
+
+This collection of genomes can be download from [Zenodo](https://zenodo.org/records/15063554)
+
+::: {style="display: flex; gap: 10px;"}
+<img src="images/size.png" alt="phages workflow" style="width:48%;"/> <img src="images/tax_annotation.png" alt="second image" style="width:48%;"/>
+:::
+
+## The Vault
+
+Everyday bioinformatic tools are release and it is quite difficult to keep track of them.
+I have created a searchable repository of bioinformatic books and tools group in 
+five categories: books, metagenomics, genomics, amplicons, metaproteomics and R.
+This has been of great use for stablishing my workflows and I hope other people can use it.
+
+The repository is available here: [The Vault](https://sebassaenz.github.io/thevault/)
+
+<img src="https://github.com/SebasSaenz/thevault/blob/gh-pages/image/vault.webp" alt="phages workflow" style="width:48%;"/>
 
 # Personal projects
 
-I want to analyse how active I am. I will collect daily data and update the plot at
-the beginning of every month.
+I want to analyse how active I am. I will collect daily data and update the plot at the beginning of every month.
 
 This plot is the summary of my 2022
 
